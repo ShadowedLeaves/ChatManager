@@ -1,0 +1,41 @@
+name: ChatManager
+version: '1.0.0'
+main: me.shadowedleaves.chatManager.ChatManager
+api-version: '1.21'
+authors: [ ShadowedLeaves ]
+depend: [ ProtocolLib ]
+description: An advanced, fully customizable chat management plugin
+
+commands:
+  chatmanager:
+    description: Main ChatManager command
+    aliases: [ cm ]
+
+permissions:
+  chatmanager.bypass:
+    description: Allows a player to bypass all chat filters and restrictions
+    default: op
+
+  chatmanager.notify:
+    description: Allows a player to receive notifications about flagged messages
+    default: op
+
+  chatmanager.command.help:
+    description: Allows a player to view help messages for ChatManager
+    default: op
+
+  chatmanager.command.config:
+    description: Allows a player to modify ChatManager configuration
+    default: op
+
+  chatmanager.command.logs:
+    description: Allows a player to access and modify chat logs
+    default: op
+
+  chatmanager.command.reload:
+    description: Allows a player to reload the ChatManager configuration files
+    default: op
+
+  chatmanager.command.clearchat:
+    description: Allows a player to clear the chat for all players
+    default: op

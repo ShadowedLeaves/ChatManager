@@ -1,0 +1,44 @@
+#       _____ _           _   __  __
+#      / ____| |         | | |  \/  |
+#     | |    | |__   __ _| |_| \  / | __ _ _ __   __ _  __ _  ___ _ __
+#     | |    | '_ \ / _` | __| |\/| |/ _` | '_ \ / _` |/ _` |/ _ \ '__|
+#     | |____| | | | (_| | |_| |  | | (_| | | | | (_| | (_| |  __/ |
+#      \_____|_| |_|\__,_|\__|_|  |_|\__,_|_| |_|\__,_|\__, |\___|_|
+#                                                       __/ |
+#                                                      |___/
+
+# USE /chatmanager reload AFTER MANUALLY EDITING THIS FILE!
+
+# Prefix for ChatManager messages
+prefix: '§7[§9ChatManager§7]§r '
+
+# Messages shown to players for no permission & usage error
+no-permission-message: '§cYou do not have permission to use this command!'
+usage-message: '§cUsage: /chatmanager [clearchat/config/gui/help/logs/reload]'
+
+# Messages shown to players when a message is blocked
+blocked-message: '§cError: Your message contained filtered content and was not sent!'
+repetitive-message: '§cError: Your message cannot be the same as your last message!'
+url-message: '§cError: Your message cannot contain a URL!'
+
+# Message displayed to staff members (if notify-staff is enabled)
+notify-message: '§cA message sent by §4{player}§c was blocked: "§4{message}§c"!'
+
+# Filter specific words
+chat-filter:
+  enabled: true
+
+# Filter repetitive messages
+repetitive-message-filter:
+  enabled: true
+
+# Filter URL messages
+url-filter:
+  enabled: true
+
+# Notify staff when a filtered message is sent (only applies to chat-filter)
+notify-staff:
+  enabled: true
+
+# All words to be blocked by the filter
+blocked-words:
