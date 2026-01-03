@@ -7,7 +7,7 @@
 
 **ChatManager** is an advanced, fully customizable chat management plugin.
 
-This plugin is compatible with servers running on Spigot/Paper **1.21-1.21.8**.
+This plugin is compatible with servers running on Spigot/Paper **1.21-1.21.9**.
 
 ---
 
@@ -24,7 +24,7 @@ This plugin is compatible with servers running on Spigot/Paper **1.21-1.21.8**.
 
 ## Requirements
 
-- Spigot/Paper **1.21-1.21.8**
+- Spigot/Paper **1.21-1.21.9**
 - Java **21+**
 - ProtocolLib
 
